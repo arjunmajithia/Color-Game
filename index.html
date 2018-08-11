@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Color Game
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body onLoad="Reset();">
+
+	<div id="main_wrapper">
+		<div id="main">
+			<div id="header">
+				<h1>AN INTERESTING <br>COLOR GAME</h1>
+			</div>
+			
+			<div id="bar">
+				<div id="new_game">
+					<button id="reset" onClick="Reset();">NEW GAME</button>
+				</div>
+				<div id="demo"></div>
+				<div id="level">
+					<button id="easy">EASY</button>
+					<button id="hard">HARD</button>
+				</div>
+			</div>
+			
+			<div id="content">
+				<h2 id="content-heading">RGB value is <span id="rgbvalue">(255,0,0)</span><h2>
+			</div>
+			<div id="square">
+					<div id="block1" onClick="block1();"></div>
+					<div id="block2" onClick="block2();"></div>
+					<div id="block3" onClick="block3();"></div>
+					<div id="block4" onClick="block4();"></div>
+				</div>
+			
+		</div>
+	</div>
+
+</body>
+
+</html>

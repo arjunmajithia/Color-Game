@@ -1,0 +1,149 @@
+*
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	background: #D3D3D3;
+}
+
+#main_wrapper
+{
+	background: #D3D3D3;
+}
+
+#main
+{
+	background: white;
+	width: 65%;
+	margin: auto;
+	box-shadow: 0 0 20px;
+}
+
+	#header
+	{
+		background: #d24dff;
+	}
+	h1
+	{
+		text-align: center;
+		padding: 25px;
+		font-family: courier;
+		font-size: 50px;
+		color: white;
+		text-shadow: 0 0 5px red;
+	}
+
+#bar
+{
+	padding: 5px;
+	border-top: 2px solid #660066;
+	border-bottom: 2px solid #660066;
+}
+	#new_game
+	{
+		display: inline;
+		text-align: center;
+		margin-left: 15%;
+	}
+		#reset
+		{
+			background: white;
+			padding: 5px;
+		}
+		
+		#reset:hover
+		{
+			background: #00b8e6;
+			padding: 5px;
+			border: 5px;
+			border-radius: 5px;
+		}
+	#demo
+	{
+		display: inline;
+		text-align: center;
+		margin-left: 20%;
+	}
+	#level
+	{
+		display: inline;
+		float: right;
+		text-align: center;
+		margin-right: 15%;
+	}
+		
+		#easy, #hard
+		{
+			background: white;
+			padding: 5px;
+		}
+		#easy:hover, #hard:hover
+		{
+			background: #00b8e6;
+			padding: 5px;
+			border: 5px;
+			border-radius: 5px;
+		}
+		
+#content
+{
+	background: black;
+}
+	#content-heading
+	{
+		padding: 20px;
+		color: white;
+		text-align: center;
+		font-size: 30px;
+		font-family: Comic Sans MS;
+	}
+	
+	#square
+	{
+		background: black;
+		height: 500px;
+	}
+		#block1
+		{
+			margin: 5%;
+			height: 30%;
+			display: block;
+			float: left;
+			border-radius: 20px;
+			width: 40%;
+			background: red;
+		}
+		#block2
+		{
+			margin: 5%;
+			display: block;
+			float: left;
+			height: 30%;
+			width: 40%;
+			background: blue;
+			border-radius: 20px;
+		}
+		#block3
+		{
+			margin: 5%;
+			display: block;
+			float: left;
+			height: 30%;
+			width: 40%;
+			background: yellow;
+			border-radius: 20px;
+		}
+		#block4
+		{
+			margin: 5%;
+			display: block;
+			float: left;
+			width: 40%;
+			height: 30%;
+			background: green;
+			border-radius: 20px;
+		}
